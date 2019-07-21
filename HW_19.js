@@ -1,13 +1,14 @@
 'use strict';
 
 //№1
-isNumberInRange(2);
 function isNumberInRange(number) {
     if (number > 0 && number < 10) {
-        return console.log('true');
+        return true;
     }
-    return console.log('false');
+    return false;
 }
+console.log(isNumberInRange(-5) );
+
 
 //№2
 function isEven(n) {
